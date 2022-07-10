@@ -280,7 +280,11 @@ nav {
     color: transparent;
     background-color: transparent;
   }
+  
+  .project-content h1:hover {
 
+    font-weight: bold;
+  }
 
 
   .skills {
@@ -378,6 +382,7 @@ nav {
   text-transform: capitalize;
   text-align: center;
   font-weight: 300;
+  cursor: pointer;
 }
 
 .project-info{
@@ -388,22 +393,6 @@ nav {
   color: #011638;
 }
 
-.project-btn-grp{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-}
-
-.project-btn.github button{
-  height: 40px;
-  text-transform: capitalize;
-  font-size: 18px;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  background:none;
-
-}
 
 
 
@@ -431,6 +420,7 @@ nav {
 
     background-color: #0F7173;
   }
+  
   section.about h1{  
     margin-bottom: 1rem;  
     font-size: 1.6rem;  
@@ -466,9 +456,69 @@ nav {
     background: var(--secondary-color);  
   }
 
+  .experiences{
+  background: white;
+}
+
+
+.experiences .content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  
+  color: var(--secondary-color);
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.experiences .content .col-left{
+  position: relative;
+  width: 46%;
+}
+
+.experiences .content .col-left .content-title{
+  margin-bottom: 20px;
+}
+
+
+.experiences {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.experiences .content .col-right{
+  position: relative;
+  width: 46%;
+}
+
+.experiences .content .col-right .bar{
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.experiences .content .col-right .bar .info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.experiences .content .col-right .bar .info span{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.plus {
+
+  font-size: 20px;
+}
+
+
   .more p {
     font-style: italic;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
   }
 
