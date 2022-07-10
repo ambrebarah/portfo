@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Ambre BARAH | Web Developer</title>
+  </head>
+
+  <body>
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- Navbar -->
+    <nav>
+        <ul class="navigation reveal ">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+
+        </ul>
+        <div class="right">  
+            <button><a href="#contact" class="btn-primary">Contact</button></a>  
+          </div>  
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+
+    <!-- Hero Section -->
+  <div class="hero flex items-centre justify-between reveal">  
+    <div class="left flex-1 justify-center">  
+      <img src="97587.jpg" alt="Profile">  
+    </div>  
+    <div class="right flex-1">  
+      <h6>Ambre Barah</h6>  
+      <h1>Je suis<br> <span>Développeuse Web</span></h1>  
+      <p> Je suis étudiante à la web@cadémie de Strasbourg en première année dans le Web développement</p>  
+      <h1><span>En recherche d'alternance</span></h1>
+      <div>
+        <button class="btn btn-secondary"  type="submit" onclick="window.open('Blanc et blanc Photographe Entreprise CV.pdf')">DOWNLOAD CV</button>
+      </div>  
+    </div>  
+  </div>   
+
+    <!-- about -->
+   
+  <section class="about" id="about">  
+    <div class="container flex items-centre reveal">  
+      <div class="left flex-1 justify-right">  
+        <img src="log.png" height="400px" alt="profile pic">  
+      </div>  
+      <div class="right flex-1">  
+        <h1>À propos <span>de moi</span></h1>  
+        <h3>Bonjour, je suis Ambre Barah</h3>  
+        <p>Une grande passionnée de ce métier, mon but est de pouvoir évoluer et progresser dans le milieu du web développement afin d'atteindre mes objectifs et approfondir mes connaissances tant en back qu'en front
+        </p>  
+        <div class="socials">  
+          <a href="https://github.com/ambrebarah"><img src="github.png" width="40px"></a>  
+          <a href="https://www.linkedin.com/in/ambre-barah-b9543a176/"><img src="link.png" width="40px"></a>  
+        </div>  
+      </div>  
+    </div>  
+  </section>   
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header reveal">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="html.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="p.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="laravel.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+  
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="symfony.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="node.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="react.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+
+    <!-- Projects section -->
+      <!-- <section class="work reveal" id="work">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="card reveal">
+              <div class="card-img">
+            <img
+              src="snap.png"
+              alt="expense-tracker"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Snapchat</h3>
+            <p class="project-details">
+              Le projet snapchat réalisé sur expo en react
+            </p>
+            <a href="https://github.com/ambrebarah/snapchat" target="_blank" class="project-link">Plus de détail</a>
+          </div>
+          
+          </div>
+  
+              <div class="card reveal">
+                <div class="card-img">
+            <img
+              src="puissance.png"
+              alt="puissance4"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Puissance 4</h3>
+            <p class="project-details">
+            Projet basé sur le réalisation d'un puissance 4 en JavaScript 
+            </p>
+            <a href="https://github.com/ambrebarah/puissance4" target="_blank" class="project-link">Plus de détail</a>
+          </div>
+        </div>
+    
+        </div>
+      </section> -->
+
+      <section class="project-section active">
+        <div class="projects" id="projects">
+        <h1 class="project-heading">Quelques projets réalisés</h1>
+        <div class="project-container">
+            <div class="project-card reveal">
+                <img src="snap.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Snapchat</h1>
+                    <p class="project-info">
+                      Le projet snapchat réalisé sur expo en react
+                    </p>
+                    <div class="project-btn-grp">
+                      <a href="https://github.com/ambrebarah/snapchat" target="_blank" class="project-btn github"><button>Plus de détails</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+              <img src="puissance.png" class="project-img" alt="">
+              <div class="project-content">
+                  <h1 class="project-title">Puissance 4 </h1>
+                  <p class="project-info">
+                    Projet basé sur le réalisation d'un puissance 4 en JavaScript 
+                  </p>
+                  <div class="project-btn-grp">
+                    <a href="https://github.com/ambrebarah/puissance4" target="_blank" class="project-btn github"><button>Plus de détails</button></a>
+                  </div>
+              </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="more" class="more">
+      <div class="container">
+        <h1>Plus à propos de moi</h1>
+  
+        <hr />
+  
+        <div class="row">
+          <div class="col-sm-4">
+            <p class="text-center">Mes hobbies sont: le dessin, les animés, la cuisine et les escapes games</p>
+  
+            
+          </div>
+  
+          <div class="col-sm-4">
+            <p class="text-center">Je fais partie de l'association qui effectue des maraudes "Amitiés et partage"</p>
+  
+            
+          </div>
+  
+          <div class="col-sm-4">
+            <p class="text-center">Je parle Anglais avec un niveau B1 ainsi que l'arabe qui est ma langue maternelle</p>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <h2 class="section-title">Me contacter</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <img
+              src="adresse.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            </div>
+            <div class="info">
+              <h3>Adresse</h3>
+              <span>Adresse, Ville, Pays</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <img
+              src="phone.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            </div>
+            <div class="info">
+              <h3>Téléphone</h3>
+              <span>+33 6 63 05 74 20</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <img
+              src="mail.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            </div>
+            <div class="info">
+              <h3>E-mail</h3>
+              <span>ambre.barah@epitech.eu</span>
+            </div>
+          </div>
+
+        </div>
+        <form role="form" method="POST"  action="form.php" id="contact-form">
+        <div class="row">
+          <div class="contact-form reveal ">
+            <h3>Envoyer un message</h3>
+            <div class="input-box">
+              <input type="text" name="name" value="" placeholder="nom">
+            </div>
+            <div class="input-box">
+              <input type="text" name="lastname" value="" placeholder="prénom">
+            </div>
+            <div class="input-box">
+              <input type="text" name="email" value="" placeholder="Email">
+            </div>
+            <div class="input-box">
+              <label for="messageTXT">Message</label>
+                  <textarea cols="36" rows="8" id="messageTXT" name="message"></textarea>
+                </div>
+            <div class="input-box">
+              <input type="submit" class="send-btn" name="" value="Envoyer"/>
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+    ><img
+      src="arrow.png"
+      class="socicon up-arrow"
+      alt="scroll-up"
+  /></i>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <span class="footer-title">Ambre Barah</span>
+      <p>Copyright @2022 <a href="#">Ambruchan</a>. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Ion icons scripts -->
+  </body>
+  <script src="scroll.js"></script>
+</html>
